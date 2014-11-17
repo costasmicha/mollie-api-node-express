@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+.bike-list{}
+.bike-list > li{
+    margin-bottom:12px
+}
+.bike-list > li:last-child{}
+.bike-list > li > a{
+	display:block;
+	position:relative;
+	background-color: #212121;
+	color: #fff;
+	padding: 8px;
+	border-radius:3px
+}
+.bike-list > li > a:hover{
+	background-color:#000;
+	transition:all 500ms ease;
+	box-shadow:0 2px 4px rgba(0,0,0,.3);
+	text-decoration:none
+}
+.bike-list h2{
+	bottom: 0;
+	font-size: 14px;
+	height: 33px;
+	margin: 8px 0 0;
+}
+
+
+@media (min-width:320px) and (max-width: 480px) { 
+	.bike-list h2{
+		bottom: 0;
+		font-size: 12px;
+		height: 22px;
+		margin: 8px 0 0;
+	}
+}
